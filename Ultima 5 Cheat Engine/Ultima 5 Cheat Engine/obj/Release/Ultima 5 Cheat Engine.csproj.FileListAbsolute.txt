@@ -1,0 +1,50 @@
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\Ultima 5 Cheat Engine.exe.config
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\Ultima 5 Cheat Engine.exe
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\Ultima 5 Cheat Engine.pdb
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\GalaSoft.MvvmLight.dll
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\System.Windows.Interactivity.dll
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\Xceed.Wpf.AvalonDock.dll
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\Xceed.Wpf.DataGrid.dll
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\Xceed.Wpf.Toolkit.dll
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\GalaSoft.MvvmLight.pdb
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\GalaSoft.MvvmLight.xml
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\bin\Release\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\obj\Release\Ultima 5 Cheat Engine.csprojAssemblyReference.cache
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\obj\Release\Skins\MainSkin.baml
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\obj\Release\MainWindow.g.cs
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\obj\Release\View\MainView.g.cs
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\obj\Release\App.g.cs
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\obj\Release\Ultima 5 Cheat Engine_MarkupCompile.cache
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\obj\Release\Ultima 5 Cheat Engine_MarkupCompile.lref
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\obj\Release\App.baml
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\obj\Release\MainWindow.baml
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\obj\Release\View\MainView.baml
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\obj\Release\Ultima 5 Cheat Engine.g.resources
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\obj\Release\Ultima_5_Cheat_Engine.Properties.Resources.resources
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\obj\Release\Ultima 5 Cheat Engine.csproj.GenerateResource.cache
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\obj\Release\Ultima 5 Cheat Engine.csproj.CoreCompileInputs.cache
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\obj\Release\Ultima 5 Cheat Engine.csproj.CopyComplete
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\obj\Release\Ultima 5 Cheat Engine.exe
+C:\Users\Philip\source\repos\Ultima 5 Cheat Engine\Ultima 5 Cheat Engine\obj\Release\Ultima 5 Cheat Engine.pdb

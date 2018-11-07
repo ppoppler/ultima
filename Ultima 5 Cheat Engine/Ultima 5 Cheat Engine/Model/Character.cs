@@ -28,7 +28,7 @@ namespace Ultima_5_Cheat_Engine.Model
         {
             Regex rgx = new Regex("[^a-zA-Z0-9 -]");
             
-            this.Name = rgx.Replace(Name, "");
+            this.Name = rgx.Replace(Name, "").Replace("-","").Replace("/","");
             this.Gender = Gender;
             this.Class = Class;
             this.Strength = Strength;

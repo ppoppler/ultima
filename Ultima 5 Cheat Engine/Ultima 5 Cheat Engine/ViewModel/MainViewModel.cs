@@ -48,6 +48,8 @@ namespace Ultima_5_Cheat_Engine.ViewModel
         public int MaxHitPoints { get; set; }
         public int Experience { get; set; }
         public Character ChosenCharacter { get; set; }
+        public bool SelectButtonOn { get; set; }
+        public bool SaveButtonOn { get; set; }
 
         public BindingList<Character> Characters
         {
@@ -61,6 +63,8 @@ namespace Ultima_5_Cheat_Engine.ViewModel
             }
 
         }
+
+
       
 
         public string FileName
@@ -96,6 +100,8 @@ namespace Ultima_5_Cheat_Engine.ViewModel
         /// </summary>
         public MainViewModel()
         {
+            SelectButtonOn = false;
+            SaveButtonOn = false;
 
         }
 
@@ -200,6 +206,10 @@ namespace Ultima_5_Cheat_Engine.ViewModel
                 FileName = dialog.FileName;
                 Ultima5Utils.ReadGameFile(FileName, out characters, out _gold);
                 Characters = new BindingList<Character>(characters);
+                SelectButtonOn = true;
+                SaveButtonOn = false;
+                RaisePropertyChanged("SaveButtonOn");
+                RaisePropertyChanged("SelectButtonOn");
                 RaisePropertyChanged("FileName");
                 RaisePropertyChanged("Characters");
                 RaisePropertyChanged("Gold");
@@ -217,7 +227,9 @@ namespace Ultima_5_Cheat_Engine.ViewModel
             MaxHitPoints = ChosenCharacter.MaxHitPoints;
             Experience = ChosenCharacter.Experience;
 
+            SaveButtonOn = true;
             //RaisePropertyChanged("Name");
+            RaisePropertyChanged("SaveButtonOn");
             RaisePropertyChanged("Strength");
             RaisePropertyChanged("Dexterity");
             RaisePropertyChanged("Intelligence");
@@ -242,9 +254,11 @@ namespace Ultima_5_Cheat_Engine.ViewModel
             //characters.Find(m => m.Name.Equals(ChosenCharacter.Name));
             characters[characters.FindIndex(m => m.Name.Equals(ChosenCharacter.Name))] = ChosenCharacter;
             Characters = new BindingList<Character>(characters);
+            SaveButtonOn = false;
+            RaisePropertyChanged("SaveButtonOn");
             RaisePropertyChanged("Characters");
-
             Ultima5Utils.WriteGameFile(FileName, ChosenCharacter, Gold);
+            ChosenCharacter = null;
         }
 
         public void KeyAction()
@@ -351,7 +365,7 @@ namespace Ultima_5_Cheat_Engine.ViewModel
             int index = characters.FindIndex(m => Enumerable.SequenceEqual(m.GetRange(2, bytename.Length).ToArray(), (bytename)));
             //If name is found within the file...
             List<byte> replacement;
-            if (index != 1)
+            if (index != -1)
             {
                 replacement = new List<byte>(characters[index]);
                 replacement[14] = (byte)(c.Strength);
@@ -366,9 +380,11 @@ namespace Ultima_5_Cheat_Engine.ViewModel
 
 
                 int startIndex = index * 32;
-                for (int i = startIndex; i < 32; i++)
+                int j = startIndex;
+                for (int i = 0; i < 32; i++)
                 {
-                    bytelist[i] = replacement[i];
+                    bytelist[j] = replacement[i];
+                    j++;
                 }
                 bytelist[516] = (byte)(Gold);
                 bytelist[517] = (byte)(Gold >> 8);

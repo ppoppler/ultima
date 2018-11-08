@@ -367,7 +367,7 @@ namespace Ultima_5_Cheat_Engine.ViewModel
         public void GemAction()
         {
             //Change the file for 100 gems 
-            Ultima5Utils.AddItems(FileName, (int)Ultima5Items.BLACK_BADGE, 99);
+            Ultima5Utils.AddItems(FileName, (int)Ultima5Items.GEMS, 99);
         }
 
         /// <summary>
@@ -560,15 +560,22 @@ namespace Ultima_5_Cheat_Engine.ViewModel
         /// <param name="amount">Amount of the item or the value of the item</param>
         public static void AddItems(string path, int item, int amount)
         {
-            //Read all the bytes and make the byetlist
-            byte[] bytes = File.ReadAllBytes(path);
-            List<byte> bytelist = new List<byte>(bytes);
+            try
+            {
+                //Read all the bytes and make the byetlist
+                byte[] bytes = File.ReadAllBytes(path);
+                List<byte> bytelist = new List<byte>(bytes);
 
-            //Add the item and the specified value or amount
-            bytelist[item] = (byte)amount;
+                //Add the item and the specified value or amount
+                bytelist[item] = (byte)amount;
 
-            //Write to file 
-            File.WriteAllBytes(path, bytelist.ToArray());
+                //Write to file 
+                File.WriteAllBytes(path, bytelist.ToArray());
+            }
+            catch (ArgumentNullException)
+            {
+                Console.WriteLine("ArgumentNullException: Change button for items pressed when no file was selected");
+            }
         }
 
         /// <summary>
